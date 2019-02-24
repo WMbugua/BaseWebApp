@@ -22,9 +22,8 @@ app.get('/projects', function(request, response) {
   response.render('pages/projects');
 });
 
-
-app.get('/', function(request, response) {
-  response.render('pages/index');
+app.get('/contact', function(request, response) {
+  response.render('pages/contact');
 });
 
 app.listen(app.get('port'), function() {
